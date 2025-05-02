@@ -1,25 +1,21 @@
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import FeatureSection from "./components/FeatureSection";
-import Workflow from "./components/Workflow";
-import Footer from "./components/Footer";
-import Pricing from "./components/Pricing";
-import Testimonials from "./components/Testimonials";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Footer from './components/Footer';
+import Contact from './pages/Contacts';
 
-const App = () => {
-  return (
-    <>
-      <Navbar />
-      <div className="max-w-7xl mx-auto pt-20 px-6">
-        <HeroSection />
-        <FeatureSection />
-        {/* <Workflow /> */}
-        <Pricing />
-        {/* <Testimonials /> */}
-        <Footer />
-      </div>
-    </>
-  );
-};
+const App = () => (
+  <Router>
+    <Navbar />
+    <div className="max-w-7xl mx-auto pt-20 px-6">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contacts" element={<Contact />} />
+      </Routes>
+    </div>
+    <Footer />
+  </Router>
+);
 
 export default App;
