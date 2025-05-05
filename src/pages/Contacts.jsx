@@ -108,8 +108,8 @@ const Contact = () => {
         </button>
       </form>
 
-      {/* Sidebar Contact Details */}
-      <div className="w-full lg:w-1/3 flex-shrink-0 bg-neutral-800/backdrop-blur p-6 rounded-2xl border border-[#12556b] space-y-6">
+      {/* Sidebar Contact Details - hidden on mobile */}
+      <div className="hidden sm:block w-full lg:w-1/3 flex-shrink-0 bg-neutral-800/backdrop-blur p-6 rounded-2xl border border-[#12556b] space-y-6">
         <h3 className="text-2xl font-semibold text-white mb-4">Contact Info</h3>
         <div className="flex items-center space-x-2 text-neutral-300 hover:text-white transition cursor-pointer">
           <MapPin className="text-[#12556b] flex-shrink-0" />
@@ -137,3 +137,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

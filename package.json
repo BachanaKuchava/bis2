@@ -11,10 +11,15 @@
   },
   "dependencies": {
     "axios": "^1.9.0",
+    "framer-motion": "^12.9.4",
     "lucide-react": "^0.344.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^7.5.3"
+    "react-parallax-tilt": "^1.7.294",
+    "react-router-dom": "^7.5.3",
+    "react-tsparticles": "^2.12.2",
+    "swiper": "^11.2.6",
+    "tsparticles": "^3.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
