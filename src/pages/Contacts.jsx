@@ -113,7 +113,7 @@ const Contact = () => {
         <h3 className="text-2xl font-semibold text-white mb-4">Contact Info</h3>
         <div className="flex items-center space-x-2 text-neutral-300 hover:text-white transition cursor-pointer">
           <MapPin className="text-[#12556b] flex-shrink-0" />
-          <span>Tbilisi, Georgia</span>
+          <span>Tbilisi, Davit Gamrekeli STR.10</span>
         </div>
         <div className="flex items-center space-x-2 text-neutral-300 hover:text-white transition cursor-pointer">
           <Phone className="text-[#12556b] flex-shrink-0" />
