@@ -1,22 +1,61 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { X } from "lucide-react";
+import xs        from "../assets/port1.PNG";
+import sp        from "../assets/port2.PNG";
+import ammo      from "../assets/port3.PNG";
+import solar     from "../assets/port4.PNG";
+import guda      from "../assets/port5.PNG";
+import translate from "../assets/port6.PNG";
+
 
 const projects = [
   {
     id: 1,
-    title: "Project One",
-    image: "https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png",
+    title: "XS TOYS",
+    image: xs,
     description: "This project demonstrates dynamic design in project management, highlighting key features and workflows.",
-    liveLink: "https://example.com/project-one",
+    liveLink: "https://xsigrace.si/en",
     repoLink: "https://github.com/BachanaKuchava/project-one",
   },
   {
     id: 2,
-    title: "Project Two",
-    image: "https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png",
+    title: "Space News",
+    image: sp,
     description: "An advanced platform showcasing integrations, responsive interfaces, and seamless user experiences.",
-    liveLink: "https://example.com/project-two",
+    liveLink: "https://spnews.io/ge",
+    repoLink: "https://github.com/BachanaKuchava/project-two",
+  },
+  {
+    id: 3,
+    title: "AMMO Exchange",
+    image: ammo,
+    description: "This project demonstrates dynamic design in project management, highlighting key features and workflows.",
+    liveLink: "https://ammoexchange.com/",
+    repoLink: "https://github.com/BachanaKuchava/project-one",
+  },
+  {
+    id: 4,
+    title: "Solar Pannels",
+    image: solar,
+    description: "An advanced platform showcasing integrations, responsive interfaces, and seamless user experiences.",
+    liveLink: "https://solarvalley.ge/ka/",
+    repoLink: "https://github.com/BachanaKuchava/project-two",
+  },
+  {
+    id: 5,
+    title: "Guda Books",
+    image: guda,
+    description: "This project demonstrates dynamic design in project management, highlighting key features and workflows.",
+    liveLink: "https://gudabooks.ge/",
+    repoLink: "https://github.com/BachanaKuchava/project-one",
+  },
+  {
+    id: 6,
+    title: "Translate.ge",
+    image: translate,
+    description: "An advanced platform showcasing integrations, responsive interfaces, and seamless user experiences.",
+    liveLink: "https://translate.ge/",
     repoLink: "https://github.com/BachanaKuchava/project-two",
   },
   // Add more projects as needed

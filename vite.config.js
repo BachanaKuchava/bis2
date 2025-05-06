@@ -1,13 +1,12 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react      from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: true,    // equivalent to host: '0.0.0.0'
-    port: 5173,    // optional: lock in your port
+    host: true,
+    port: 5173,
   },
+  // Tell Vite that imports ending in .PNG are static assets:
+  assetsInclude: [/\.(png|PNG)$/],
 })
-
-
