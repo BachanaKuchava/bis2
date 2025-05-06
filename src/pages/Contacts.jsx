@@ -124,10 +124,10 @@ const Contact = () => {
           <span>bisolutionsbis@gmail.com</span>
         </div>
         <div className="flex space-x-6 mt-4">
-          <a href="https://facebook.com/YourPage" target="_blank" rel="noopener noreferrer" className="group hover:text-white transition transform hover:scale-110" title="Facebook">
+          <a href="https://www.facebook.com/profile.php?id=61575796340838" target="_blank" rel="noopener noreferrer" className="group hover:text-white transition transform hover:scale-110" title="Facebook">
             <Facebook className="text-[#12556b] group-hover:text-white transition" />
           </a>
-          <a href="https://linkedin.com/company/YourCompany" target="_blank" rel="noopener noreferrer" className="group hover:text-white transition transform hover:scale-110" title="LinkedIn">
+          <a href="https://www.linkedin.com/company/107007288" target="_blank" rel="noopener noreferrer" className="group hover:text-white transition transform hover:scale-110" title="LinkedIn">
             <Linkedin className="text-[#12556b] group-hover:text-white transition" />
           </a>
         </div>

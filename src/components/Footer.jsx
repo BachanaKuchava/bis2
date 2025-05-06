@@ -37,7 +37,7 @@ const Footer = () => {
           </button>
           <div className="flex space-x-6 mt-4">
             <a
-              href="https://facebook.com/YourPage"
+              href="https://www.facebook.com/profile.php?id=61575796340838"
               target="_blank"
               rel="noopener noreferrer"
               className="group hover:text-white transition transform hover:scale-110"
@@ -46,7 +46,7 @@ const Footer = () => {
               <Facebook className="text-[#12556b] group-hover:text-white transition" />
             </a>
             <a
-              href="https://linkedin.com/company/YourCompany"
+              href="https://www.linkedin.com/company/107007288"
               target="_blank"
               rel="noopener noreferrer"
               className="group hover:text-white transition transform hover:scale-110"

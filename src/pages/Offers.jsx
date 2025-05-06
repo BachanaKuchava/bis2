@@ -2,16 +2,67 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import construction from '../assets/construction.jpg'
+import education from '../assets/education.jpg'
+import ecommerce from '../assets/ecommerce.jpg'
+import health from '../assets/health.jpg'
+import finance from '../assets/finance.png'
+import realestate from '../assets/realestate.jpg'
+import hospitality from '../assets/hospitality.jpg'
+import logistics from '../assets/logistics.jpg'
+
+
+
 
 const segments = [
-  { name: 'Construction', desc: 'Premium software for managing construction projects from blueprint to build.', image: 'https://parsadi.com/wp-content/uploads/2022/05/Company.jpg' },
-  { name: 'Education', desc: 'Engage and educate with our modern e-learning platforms and tools.', image: 'https://parsadi.com/wp-content/uploads/2022/05/Company.jpg' },
-  { name: 'E-Commerce', desc: 'Powerful online storefronts to scale your retail business.', image: 'https://parsadi.com/wp-content/uploads/2022/05/Company.jpg' },
-  { name: 'Healthcare', desc: 'Secure and compliant healthcare management systems.', image: 'https://parsadi.com/wp-content/uploads/2022/05/Company.jpg' },
-  { name: 'Finance', desc: 'Robust financial software to streamline your operations.', image: 'https://parsadi.com/wp-content/uploads/2022/05/Company.jpg' },
-  { name: 'Real Estate', desc: 'Innovative platforms to showcase and manage properties.', image: 'https://parsadi.com/wp-content/uploads/2022/05/Company.jpg' },
-  { name: 'Hospitality', desc: 'Seamless booking and guest management solutions.', image: 'https://parsadi.com/wp-content/uploads/2022/05/Company.jpg' },
-  { name: 'About Us', desc: 'Learn more about BI Solutions and our journey.', image: 'https://parsadi.com/wp-content/uploads/2022/05/Company.jpg' },
+  {
+    name: 'Construction',
+    desc:
+      'AI-driven project scheduling, real-time site monitoring, and digital twin modelling to keep builds on time and under budget.',
+    image: construction,
+  },
+  {
+    name: 'Education',
+    desc:
+      'Immersive e-learning platforms with adaptive assessments, virtual classrooms and analytics dashboards to boost engagement and retention.',
+    image: education,
+  },
+  {
+    name: 'E-Commerce',
+    desc:
+      'Omnichannel storefronts, AI personalization and AR “try-before-you-buy” experiences that drive higher conversions and lower returns.',
+    image: ecommerce,
+  },
+  {
+    name: 'Healthcare',
+    desc:
+      'Secure telemedicine portals, patient management systems and HIPAA-compliant data analytics for modern care delivery.',
+    image: health,
+  },
+  {
+    name: 'Finance',
+    desc:
+      'Digital banking solutions, robo-advisors and regulatory-grade compliance tooling that streamline your money management.',
+    image: finance,
+  },
+  {
+    name: 'Real Estate',
+    desc:
+      'Virtual property tours, interactive site maps and CRM integrations that turn browsers into buyers faster.',
+    image: realestate,
+  },
+  {
+    name: 'Hospitality',
+    desc:
+      'Contactless check-in/out, smart room controls and guest-experience apps that delight travelers and increase repeat stays.',
+    image: hospitality,
+  },
+  {
+    name: 'Logistics & Supply Chain',
+    desc:
+      'End-to-end inventory tracking, route optimization and blockchain-backed traceability for seamless goods movement.',
+    image: logistics,
+  },
 ];
 
 const Offers = () => {
@@ -90,7 +141,7 @@ const Offers = () => {
           </div>
         )}
 
-        {!isMobile && (
+        {/* {!isMobile && (
           <motion.div
             className="text-center"
             initial={{ opacity: 0 }}
@@ -105,7 +156,7 @@ const Offers = () => {
               View More
             </motion.button>
           </motion.div>
-        )}
+        )} */}
       </div>
     </section>
   );
